@@ -1,0 +1,42 @@
+//countdown loop
+print "countdown:".
+from {local countdown is 3.} until countdown = 0 step {set countdown to countdown - 1.} do {
+	print ".." + countdown.
+	wait 1. //pauses script for 1 second.
+}
+
+//housekeeping
+sas off.
+lights off.
+
+
+lock throttle to 1.0. //locks throttle to 100%.
+
+lock steering to up + r(0,0,180).
+
+stage.
+
+//unlike the last staement, this will keep checking for no fuel and try to stage.
+
+when stage:liquidfuel < 1 then {
+wait 1.	
+stage.
+wait 0.5.
+stage.
+preserve.
+}
+
+until ship:altitude > 50000 {
+	if ship:altitude > 10000
+		lock steering to heaading(90,90} + r(0,0-90)
+
+when ship:altitude > 70000 then { //this should activate action group 1.
+	toggle ag1.
+	print "deploy solar pnl." at(0,10).
+}.
+
+wait until ship:altitude > 100000.
+
+set ship:control:pilotmainthrottle to 0.
+
+set ship:control:neutralize to true.

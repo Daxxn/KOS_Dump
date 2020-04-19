@@ -1,0 +1,11 @@
+{
+   "Aircraft Trims and Finals" : 
+   [
+      {
+         "Name" : "Explorer1LR",
+         "TakeOff" : "17 Up",
+         "Landing" : 0,
+         "Final AP Speed" : 90
+      }
+   ]
+}

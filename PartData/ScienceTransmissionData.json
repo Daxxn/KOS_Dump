@@ -1,0 +1,184 @@
+{
+   "Science" : [
+      {
+         "Name" : "SurfaceSample",
+         "Value" : 30,
+         "Efficiency" : 0.25,
+         "TransEnegry" : 300,
+         "DataSize" : 30
+      },
+      {
+         "Name" : "EVAReport",
+         "Value" : 8,
+         "Efficiency" : 1,
+         "TransEnegry" : 80,
+         "DataSize" : 8
+      },
+      {
+         "Name" : "AsteroidSample",
+         "Value" : 60,
+         "Efficiency" : 0.3,
+         "TransEnegry" : 600,
+         "DataSize" : 60
+      },
+      {
+         "Name" : "CrewReport",
+         "Value" : 5,
+         "Efficiency" : 1,
+         "TransEnegry" : 50,
+         "DataSize" : 5
+      },
+      {
+         "Name" : "MysteryGoo",
+         "Value" : 10,
+         "Efficiency" : 0.3,
+         "TransEnegry" : 100,
+         "DataSize" : 10
+      },
+      {
+         "Name" : "MaterialStudy",
+         "Value" : 25,
+         "Efficiency" : 0.35,
+         "TransEnegry" : 250,
+         "DataSize" : 25
+      },
+      {
+         "Name" : "TempScan",
+         "Value" : 8,
+         "Efficiency" : 0.5,
+         "TransEnegry" : 80,
+         "DataSize" : 8
+      },
+      {
+         "Name" : "PressScan",
+         "Value" : 12,
+         "Efficiency" : 0.5,
+         "TransEnegry" : 120,
+         "DataSize" : 12
+      },
+      {
+         "Name" : "SeismicScan",
+         "Value" : 20,
+         "Efficiency" : 0.45,
+         "TransEnegry" : 500,
+         "DataSize" : 50
+      },
+      {
+         "Name" : "GravityScan",
+         "Value" : 20,
+         "Efficiency" : 0.45,
+         "TransEnegry" : 500,
+         "DataSize" : 60
+      },
+      {
+         "Name" : "AtmoScan",
+         "Value" : 20,
+         "Efficiency" : 0.6,
+         "TransEnegry" : 2000,
+         "DataSize" : 200
+      },
+      {
+         "Name" : "IRTelescope",
+         "Value" : 15,
+         "Efficiency" : 0.4,
+         "TransEnegry" : 300,
+         "DataSize" : 30
+      },
+      {
+         "Name" : "RobotArmScan_1",
+         "Value" : 30,
+         "Efficiency" : 1,
+         "TransEnegry" : "NaN",
+         "DataSize" : 30
+      },
+      {
+         "Name" : "RobotArmScan_2",
+         "Value" : 45,
+         "Efficiency" : 1,
+         "TransEnegry" : "NaN",
+         "DataSize" : 45
+      },
+      {
+         "Name" : "RobotArmScan_3",
+         "Value" : 60,
+         "Efficiency" : 1,
+         "TransEnegry" : "NaN",
+         "DataSize" : 60
+      }
+      ],
+   "BodyRecoveryMultiplier" : {
+         "Kerbol" : 4,
+         "Moho" : 7,
+         "Eve" : 5,
+         "Gilly" : 6,
+         "Kerbin" : 1,
+         "Mun" : 2,
+         "Minmus" : 2.5,
+         "Duna" : 5,
+         "Ike" : 5,
+         "Dres" : 6,
+         "Jool" : 6,
+         "Laythe" : 8,
+         "Vall" : 8,
+         "Tylo" : 8,
+         "Bop" : 8,
+         "Pol" : 8,
+         "Eeloo" : 10
+      },
+   "AntennaPowerPerMit" : [
+         {
+            "Name" : "Com_16",
+            "MitsPerSec" : 3.33,
+            "EcPerMit" : 6,
+            "EcPerSec" : 20
+         },
+         {
+            "Name" : "Com_16S",
+            "MitsPerSec" : 3.33,
+            "EcPerMit" : 6,
+            "EcPerSec" : 20
+         },
+         {
+            "Name" : "Com_DTS-M1",
+            "MitsPerSec" : 5.71,
+            "EcPerMit" : 6,
+            "EcPerSec" : 34.3
+         },
+         {
+            "Name" : "Com_HG-55",
+            "MitsPerSec" : 20,
+            "EcPerMit" : 6.6667,
+            "EcPerSec" : 133.3
+         },
+         {
+            "Name" : "Com_88-88",
+            "MitsPerSec" : 20,
+            "EcPerMit" : 10,
+            "EcPerSec" : 200
+         },
+         {
+            "Name" : "HG-5_Relay",
+            "MitsPerSec" : 5.71,
+            "EcPerMit" : 9,
+            "EcPerSec" : 51.4
+         },
+         {
+            "Name" : "RA-2_Relay",
+            "MitsPerSec" : 2.86,
+            "EcPerMit" : 24,
+            "EcPerSec" : 68.6
+         },
+         {
+            "Name" : "RA-15_Relay",
+            "MitsPerSec" : 5.71,
+            "EcPerMit" : 12,
+            "EcPerSec" : 68.6
+         },
+         {
+            "Name" : "RA-100_Relay",
+            "MitsPerSec" : 11.43,
+            "EcPerMit" : 6,
+            "EcPerSec" : 68.6
+         }
+      ]
+}

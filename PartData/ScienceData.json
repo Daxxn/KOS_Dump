@@ -1,0 +1,128 @@
+{
+   "Science" : [
+      {
+         "Name" : "SurfaceSample",
+         "Value" : 30,
+         "Efficiency" : 0.25,
+         "TransEnegry" : 300,
+         "DataSize" : 30
+      },
+      {
+         "Name" : "EVAReport",
+         "Value" : 8,
+         "Efficiency" : 1,
+         "TransEnegry" : 80,
+         "DataSize" : 8
+      },
+      {
+         "Name" : "AsteroidSample",
+         "Value" : 60,
+         "Efficiency" : 0.3,
+         "TransEnegry" : 600,
+         "DataSize" : 60
+      },
+      {
+         "Name" : "CrewReport",
+         "Value" : 5,
+         "Efficiency" : 1,
+         "TransEnegry" : 50,
+         "DataSize" : 5
+      },
+      {
+         "Name" : "MysteryGoo",
+         "Value" : 10,
+         "Efficiency" : 0.3,
+         "TransEnegry" : 100,
+         "DataSize" : 10
+      },
+      {
+         "Name" : "MaterialStudy",
+         "Value" : 25,
+         "Efficiency" : 0.35,
+         "TransEnegry" : 250,
+         "DataSize" : 25
+      },
+      {
+         "Name" : "TempScan",
+         "Value" : 8,
+         "Efficiency" : 0.5,
+         "TransEnegry" : 80,
+         "DataSize" : 8
+      },
+      {
+         "Name" : "PressScan",
+         "Value" : 12,
+         "Efficiency" : 0.5,
+         "TransEnegry" : 120,
+         "DataSize" : 12
+      },
+      {
+         "Name" : "SeismicScan",
+         "Value" : 20,
+         "Efficiency" : 0.45,
+         "TransEnegry" : 500,
+         "DataSize" : 50
+      },
+      {
+         "Name" : "GravityScan",
+         "Value" : 20,
+         "Efficiency" : 0.45,
+         "TransEnegry" : 500,
+         "DataSize" : 60
+      },
+      {
+         "Name" : "AtmoScan",
+         "Value" : 20,
+         "Efficiency" : 0.6,
+         "TransEnegry" : 2000,
+         "DataSize" : 200
+      },
+      {
+         "Name" : "IRTelescope",
+         "Value" : 15,
+         "Efficiency" : 0.4,
+         "TransEnegry" : 300,
+         "DataSize" : 30
+      },
+      {
+         "Name" : "RobotArmScan_1",
+         "Value" : 30,
+         "Efficiency" : 1,
+         "TransEnegry" : "NaN",
+         "DataSize" : 30
+      },
+      {
+         "Name" : "RobotArmScan_2",
+         "Value" : 45,
+         "Efficiency" : 1,
+         "TransEnegry" : "NaN",
+         "DataSize" : 45
+      },
+      {
+         "Name" : "RobotArmScan_3",
+         "Value" : 60,
+         "Efficiency" : 1,
+         "TransEnegry" : "NaN",
+         "DataSize" : 60
+      }
+      ],
+   "BodyRecoveryMultiplier" : {
+         "Kerbol" : 4,
+         "Moho" : 7,
+         "Eve" : 5,
+         "Gilly" : 6,
+         "Kerbin" : 1,
+         "Mun" : 2,
+         "Minmus" : 2.5,
+         "Duna" : 5,
+         "Ike" : 5,
+         "Dres" : 6,
+         "Jool" : 6,
+         "Laythe" : 8,
+         "Vall" : 8,
+         "Tylo" : 8,
+         "Bop" : 8,
+         "Pol" : 8,
+         "Eeloo" : 10
+      }
+}
